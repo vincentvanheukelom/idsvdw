@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+}
+
+header {
+  background-color: #2b2b2b;
+  width: 100%;
+  top: 0;
+  padding-top: 1em;
+}
+
+header img {
+  width: 9.5em;
+  margin-top: -1em;
+  float: left;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5em;
+  color: #d20000;
+  text-align: center;
+}
+
+header p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #efefef;
+  text-decoration: none;
+  padding: 0.9em;
+  display: block;
+}
+
+nav ul li a:hover {
+  background: #555;
+}
+
+nav ul li a:active {
+  background: #363636;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 1em;
+  font-size: 2em;
+  color: #d20000;
+  text-align: center;
+}
+
+main p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  color: #efefef;
+  padding: 0.8em;
+  max-width: 85em;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  color: #d20000;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 0.8em;
+}
+
+main a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #d20000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.3em;
+  padding: 0.8em;
+  margin-left: 1em;
+}
+
+main a:hover {
+  background: #9b0000;
+}
+
+main a:active {
+  background: #5c0000;
+}
+
+.naasttekst {
+  width: 9em;
+  float: right;
+  padding-left: 1em;
+  margin-right: 2em;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9em;
+  background: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  padding: 0.6em;
+}
